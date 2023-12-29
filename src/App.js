@@ -1,10 +1,9 @@
-import './App.css';
-import { Banner } from './Components/Banner';
+import Bannerexport from "./Components/Index";
 
 function App() {
   return (
     <div className="App">
-      <Banner />
+      <Bannerexport />
     </div>
   );
 }
